@@ -38,3 +38,7 @@ https://developers.marketo.com/rest-api/lead-database/fields/field-types/
 Put some file (like an example.txt) to PATH and wait 1 min, after cheking 04.sql
 Attention! Creation date of files in PATH should be more then time when you enabled job/file watcher/program.
 After you create file like an example.txt you have to wait a one minute and use 04.sql to see result. You don't have to run job by yourself like "dbms_scheduler.run_job". Default time 10 minutes, changed it in the 01.sql to 1 minute.
+
+Tested on Windows 10 x64 Oracle 11g2 (11.2.0.4)
+
+Used this documentation https://docs.oracle.com/cd/E18283_01/server.112/e17120/scheduse005.htm 
